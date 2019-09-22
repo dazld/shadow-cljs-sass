@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "shadow-cljs": "^2.8.51"
+    "shadow-cljs": "^2.8.51",
+    "normalize.scss": "^0.1.0"
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
