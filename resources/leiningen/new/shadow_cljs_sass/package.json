@@ -1,0 +1,22 @@
+{
+  "name": "shadow-cljs-sass",
+  "version": "1.0.0",
+  "description": "Minimal project giving a react, reagent and shadow-cljs setup ready to go.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shadow-cljs": "^2.8.51"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

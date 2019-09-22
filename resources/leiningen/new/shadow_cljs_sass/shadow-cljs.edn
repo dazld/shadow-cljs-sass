@@ -1,0 +1,7 @@
+{:source-paths ["src"]
+ :deps true
+ :builds {:frontend
+          {:target :browser
+           :modules {:main {:init-fn {{namespace}}/init}}
+           :devtools {:http-root "public"
+                      :http-port 9966}}}}
