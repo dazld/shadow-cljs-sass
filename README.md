@@ -4,7 +4,9 @@ A Leiningen template for a clojure deps project with shadow-cljs, sass and some 
 
 ## Usage
 
-`lein new shadow-cljs-sass my-project`
+- install Leiningen 
+
+- run `lein new shadow-cljs-sass my-project`
 
 ## Template readme
 
