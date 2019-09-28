@@ -18,14 +18,13 @@
                            (reset! now! (rand-int 1000)))}
       "Click me"]]))
 
-(defn init []
-  (js/console.log "Init")
-  (r/render [app] root-element))
-
-
 (defn ^:dev/after-load start []
   (js/console.log "start")
-  (init))
+  (r/render [app] root-element))
+
+(defn init []
+  (js/console.log "Init")
+  (start))
 
 (defn ^:dev/before-load stop []
   (js/console.log "stop"))
