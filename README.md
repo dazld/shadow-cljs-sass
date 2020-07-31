@@ -1,10 +1,12 @@
-# shadow-cljs-sass
+## source for `shadow-cljs-sass` leiningen template
 
-A Leiningen template for a clojure deps project with shadow-cljs, sass and some tooling.
+The template will create a clojure deps project with [shadow-cljs](http://shadow-cljs.org), [sass](https://sass-lang.com) and some glue tooling in a makefile.
 
-## Usage
+# Using the template
 
-- install Leiningen 
+This repo is _the source for the template_ - the template itself can be run like this:
+
+- install [Leiningen](https://leiningen.org)
 
 - run `lein new shadow-cljs-sass my-project`
 
