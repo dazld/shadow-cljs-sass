@@ -1,5 +1,6 @@
 (ns {{namespace}}
   (:require [reagent.core :as r]
+            [reagent.dom :as dom]
             [applied-science.js-interop :as j]))
 
 (def initial-state {:now (js/Date.now)})
@@ -20,7 +21,7 @@
 
 (defn ^:dev/after-load start []
   (js/console.log "start")
-  (r/render [app] root-element))
+  (dom/render [app] root-element))
 
 (defn init []
   (js/console.log "Init")
