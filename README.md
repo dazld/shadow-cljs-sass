@@ -29,7 +29,7 @@ By default, `shadow-cljs` will compile the build called `:frontend`, as referenc
 
 Once the process has booted up, it will provide an `nrepl` port to the local `.shadow-cljs` directory, along with other port information. You can also see which port the nrepl is listening on in the terminal - it looks like `shadow-cljs - nREPL server started on port 59128`.
 
-Configure your `nrepl` as usual to connect to thiis port, and once connected, and a browser is open, you may connect to the live process in the browser with the command:
+Configure your `nrepl` as usual to connect to this port, and once connected, and a browser is open, you may connect to the live process in the browser with the command:
 
 `(shadow/repl :frontend)`
 
